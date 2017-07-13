@@ -13,7 +13,7 @@ A generic Vagrant machine to create local websites.
 | Shared folders            | --      | /var/www     |
 
 ## Requirements
-You need [Virtual Box][virtual-box] (with the *Extension Pack**) and [Vagrant][vagrant] installed.
+You need [Virtual Box][virtual-box] (with the **Extension Pack**) and [Vagrant][vagrant] installed.
 
 ## Set up
 Start the virtual machine (it will take a few minutes):
