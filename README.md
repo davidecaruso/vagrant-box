@@ -13,7 +13,7 @@ A generic Vagrant machine to create local websites.
 | Shared folders            | --      | /var/www     |
 
 ## Requirements
-You need [Virtual Box][virtual-box] (with the **Extension Pack**) and [Vagrant][vagrant] installed.
+You need [Virtual Box](https://www.virtualbox.org/) (with the **Extension Pack**) and [Vagrant](https://www.vagrantup.com/) installed.
 
 ## Set up
 Start the virtual machine (it will take a few minutes):
@@ -51,7 +51,7 @@ $ a2enmod rewrite
 $ service apache2 restart
 ```
 
-Now visit [10.11.12.201][localhost]
+Now visit [10.11.12.201](http://10.11.12.201/)
 
 ## Add virtual host
 You can create custom virtual hosts, but you have to configure your virtual and your local machines.
@@ -109,14 +109,8 @@ $ # And add this record
 
 ## Author
 
-[Davide Caruso][linkedin]
+[Davide Caruso](https://davidecaruso.github.io)
 
 ## License
 
-Licensed under [MIT][mit].
-
-[linkedin]: https://it.linkedin.com/in/davidecaruso93
-[mit]: http://www.opensource.org/licenses/mit-license.php
-[virtual-box]: https://www.virtualbox.org/
-[vagrant]: https://www.vagrantup.com/
-[localhost]: http://10.11.12.201/
+Licensed under [MIT](https://opensource.org/licenses/mit-license.php).
